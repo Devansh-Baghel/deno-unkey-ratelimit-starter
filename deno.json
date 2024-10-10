@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "@oak/oak": "jsr:@oak/oak@^17.1.0",
+    "@unkey/ratelimit": "npm:@unkey/ratelimit@^0.4.5"
+  },
+  "tasks": {
+    "start": "deno run --allow-net --allow-env --env server.ts"
+  }
+}
